@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "addon",
   "version": "${version}",
-  "name": "Example Addon",
-  "description": "An example addon for the Boze Addon API",
+  "name": "6b remover",
+  "description": "Removes 6b6t from modlist",
   "authors": [],
   "contact": {
     "repo": "https://github.com/boze-dev/example-addon"
