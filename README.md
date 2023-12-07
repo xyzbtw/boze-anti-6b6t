@@ -1,6 +1,3 @@
+#6b6t remover
 
-# Example Addon
-
-Example 1.20.1 addon for the Boze Addon API
-
-This could also be used as a template, although it's reccomended you start from scratch (an empty fabric mod) and use this as a reference instead
+Removes 6b6t.org from your serverlist cause boze adds it automatically (for 1.20.1 even though idk whats the api difference)
