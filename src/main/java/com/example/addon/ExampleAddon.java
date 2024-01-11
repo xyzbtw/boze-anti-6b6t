@@ -50,14 +50,6 @@ public class ExampleAddon implements ModInitializer, Addon, Serializable<Example
         return metadata;
     }
 
-    public void removeServerFromList() {
-        ServerList serverlist = new ServerList(MinecraftClient.getInstance());
-        ServerInfo sixbeeinfo = new ServerInfo("6b6t", "6b6t.org", false);
-        if(serverlist.get(sixbeeinfo.address) != null){
-            serverlist.remove(sixbeeinfo);
-            serverlist.saveFile();
-        }
-    }
 
     @Override
     public boolean initialize() {
@@ -66,7 +58,6 @@ public class ExampleAddon implements ModInitializer, Addon, Serializable<Example
         // Load config
         Globals.getJsonTools().loadObject(this, "config", this);
 
-        removeServerFromList();
 
         return true;
     }
